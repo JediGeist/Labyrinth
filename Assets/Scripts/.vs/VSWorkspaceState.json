@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GameScripts",
+    "\\GameScripts\\Character",
+    "\\GameScripts\\LevelLogic",
+    "\\MenuScripts"
+  ],
+  "SelectedNode": "\\GameScripts\\Character\\BaseCharacterMoving.cs",
+  "PreviewInSolutionExplorer": false
+}
