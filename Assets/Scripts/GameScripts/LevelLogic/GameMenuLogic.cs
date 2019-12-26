@@ -75,18 +75,18 @@ public class GameMenuLogic : MonoBehaviour
 
         walls = new List<Wall>();
 
-        TextAsset levelText = Resources.Load("LevelInfo_" + level) as TextAsset;
-        string[] lines = levelText.text.Split('\n');
+        string generatedLevel = PlayerPrefs.GetString("Generated_Level_" + level.ToString());
+        string[] lines = generatedLevel.Split('\n');
 
         for (int i = 0; i < lines.Length; i++)
         {
-            string[] wallsPositions = lines[i][0] == ',' ? lines[i].Split(',') : lines[i].Substring(0, lines[i].Length - 1).Split(',');
-            
+            string[] wallsPositions = lines[i].Split(',');
+
             // стартовая позиция игрока
             if (wallsPositions.Length == 2)
             {
-                Player.playerPositionX = int.Parse(wallsPositions[0]);
-                Player.playerPositionY = int.Parse(wallsPositions[1]);
+                Player.playerPositionX = int.Parse(wallsPositions[0].ToString());
+                Player.playerPositionY = int.Parse(wallsPositions[1].ToString());
             }
             // стены
             else if (wallsPositions.Length == 3)

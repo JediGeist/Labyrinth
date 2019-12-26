@@ -1,5 +1,5 @@
 ﻿/*
- * Check changes on git
+ * Check changes on gitx    
  */
 
 using System.Collections;

@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\GameScripts\LevelLogic\WallLogic.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\ChooseLevelLogic.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\FadeInOut.cs" />
+     <Compile Include="Assets\Scripts\MenuScripts\LevelGeneration.cs" />
      <Compile Include="Assets\Scripts\MenuScripts\MainMenuScript.cs" />
      <None Include="Assets\Resources\LevelInfo_1.txt" />
      <None Include="Assets\Resources\LevelInfo_5.txt" />

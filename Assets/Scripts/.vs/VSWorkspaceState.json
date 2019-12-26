@@ -6,6 +6,6 @@
     "\\GameScripts\\LevelLogic",
     "\\MenuScripts"
   ],
-  "SelectedNode": "\\GameScripts\\Character\\BaseCharacterMoving.cs",
+  "SelectedNode": "\\GameScripts\\LevelLogic\\GameMenuLogic.cs",
   "PreviewInSolutionExplorer": false
 }
